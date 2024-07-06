@@ -4,4 +4,4 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse('<h1> Alura Space </h1><p> Bem vindo </p>')
+    return render(request,'galeria/index.html')
